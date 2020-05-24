@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
-      Role: arn:aws:iam::7632-9057-8565:role/acct-managed/myfirstrolecreated
+      Role: arn:aws:iam::7632-9057-8565:role/acct-managed/CloudformationSeviceRole
       CodeUri: ./
       Environment:
         Variables:
